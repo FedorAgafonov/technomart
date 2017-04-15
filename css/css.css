@@ -529,7 +529,7 @@ header {
   display: inline-block;
   text-align: center;
   font-weight: bold;
-  margin: 20px 0;
+  margin: 0 0 20px 0;
   margin-right: 16px;
 }
 
@@ -722,6 +722,7 @@ header {
 .about-us {
   min-width: 940px;
   margin-top: 75px;
+  margin-bottom: 86px;
 }
 
 .us-center {
@@ -845,7 +846,6 @@ main {
 }
 
 .catalog-big-text {
-  width: 910px;
   height: 68px;
   padding-top: 33px;
   padding-left: 30px;
@@ -874,6 +874,7 @@ main {
   height: 52px;
   background-color: #f7f3ec;
   margin-top: 20px;
+  margin-bottom: 20px;
   border-radius: 5px;
   text-transform: uppercase;
   font-size: 13px;
@@ -979,10 +980,6 @@ main {
 
 .range-controls .toggle-max {
   left: 20px;
-}
-
-.price {
-  font-size: 0;
 }
 
 .price label {
@@ -1111,7 +1108,7 @@ input[type="radio"]:checked + label::after {
 .things {
   width: 700px;
   float: right;
-  margin-top: -20px;
+  margin-bottom: 100px;
 }
 
 
@@ -1119,6 +1116,9 @@ input[type="radio"]:checked + label::after {
   margin-right: 0;
 }
 
+.filter-all form {
+  width: 222px;
+}
 
 
 
@@ -1219,13 +1219,32 @@ input[type="radio"]:checked + label::after {
 
 
 
+.some-words {
+  padding-top: 48px;
+  padding-bottom: 56px;
+  min-width: 940px;
+  background-color: #f2f6f8;
+}
+
+.words-center {
+  width: 940px;
+  margin: 0 auto;
+}
+
+.words-center h2 {
+  font-weight: 100;
+}
+
+.words-center p {
+  font-size: 13px;
+  line-height: 24px;
+}
 
 footer {
   min-width: 940px;
   background: #32425c;
   font-weight: 100;
   color: #ffffff;
-  margin-top: 86px;
 }
 
 .top-footer {
@@ -1366,8 +1385,8 @@ footer li {
   color: #ffd180;
 }
 
-/*
-body > * {
+
+/*body > * {
   background: rgba(255, 45, 82, 0.2);
   box-shadow: 0 0 0 3px rgb(255, 45, 82);
 }
